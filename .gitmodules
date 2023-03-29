@@ -1,0 +1,3 @@
+[submodule "themes/hugo-arcana"]
+	path = themes/hugo-arcana
+	url = https://github.com/N3rd007/hugo-arcana
