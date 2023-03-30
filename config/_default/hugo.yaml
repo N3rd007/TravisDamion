@@ -1,0 +1,77 @@
+baseURL: /
+languageCode: en-us
+DefaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+title: Travis Damion
+theme: hugo-arcana
+copyright: © TravisDamion.com. All rights reserved.
+taxonomies:
+  tag: tags
+languages:
+  en:
+    title: Travis Damion
+    languageName: English
+    weight: 1
+    contentDir: content/english
+  ir:
+    title: Travis Damion
+    languageName: Irish
+    weight: 2
+    contentDir: content/irish
+params:
+  description: A business/corporate style responsive site template.
+  show_post_dates: false
+  social:
+    - title: Twitter
+      icon: fa-twitter
+      url: '#'
+    - title: Facebook
+      icon: fa-facebook-f
+      url: '#'
+    - title: GitHub
+      icon: fa-github
+      url: '#'
+    - title: LinkedIn
+      icon: fa-linkedin-in
+      url: '#'
+    - title: Creative Commons
+      icon: fa-creative-commons
+      url: 'https://creativecommons.org/'
+  footer:
+    links:
+      - header: Links to Stuff
+        links:
+          - title: Mattis et quis rutrum
+            url: '#'
+          - title: Suspendisse amet varius
+            url: '#'
+          - title: Sed et dapibus quis
+            url: '#'
+          - title: Rutrum accumsan dolor
+            url: '#'
+          - title: Mattis rutrum accumsan
+            url: '#'
+          - title: Suspendisse varius nibh
+            url: '#'
+          - title: Sed et dapibus mattis
+            url: '#'
+      - header: More Links to Stuff
+        links:
+          - title: Duis neque nisi dapibus
+            url: '#'
+          - title: Sed et dapibus quis
+            url: '#'
+          - title: Rutrum accumsan sed
+            url: '#'
+          - title: Mattis et sed accumsan
+            url: '#'
+          - title: Duis neque nisi sed
+            url: '#'
+          - title: Sed et dapibus quis
+            url: '#'
+          - title: Rutrum amet varius
+            url: '#'
+    contact_form:
+      enabled: true
+      header: Get In Touch
+      action: ''
