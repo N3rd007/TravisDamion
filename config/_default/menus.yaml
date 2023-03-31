@@ -1,35 +1,36 @@
 main:
-  - name: Dropdown
+  - identifier: home
+    name: Home
+    parent: Home
+    pageRef: /
+    weight: 10
+
+  - identifier: store
+    name: Shop
+    parent: Shop
+    pageRef: /shop
+    weight: 20
+
+  - identifier: posts
+    name: Posts
+    parent: Posts
+    pageRef: /posts
     weight: 30
-  - parent: Dropdown
-    name: Lorem dolor
-    weight: 31
-  - parent: Dropdown
-    name: Magna Phasellus
-    weight: 32
-  - parent: Dropdown
-    name: Etiam sed tempus
-    weight: 33
-  - parent: Dropdown
-    name: Submenu
-    weight: 34
-  - parent: Submenu
-    name: Lorem dolor
-    identifier: sub-lorem
-    weight: 35
-  - parent: Submenu
-    name: Phasellus magna
-    weight: 36
-  - parent: Submenu
-    name: Magna phasellus
-    weight: 37
-  - parent: Submenu
-    name: Etiam nisl
-    weight: 38
-  - parent: Submenu
-    name: Veroeros feugiat
-    identifier: sub-veroeros
-    weight: 39
-  - parent: Dropdown
-    name: Veroeros feugiat
+
+  - identifier: videos
+    name: Videos
+    parent: Videos
+    pageRef: /videos
     weight: 40
+
+  - identifier: audioTracks
+    parent: Audio Tracks
+    name: Audio Tracks
+    pageRef: /audio
+    weight: 50
+
+  - identifier: artwork
+    parent: Artwork
+    name: Artwork
+    pageRef: /art
+    weight: 60
